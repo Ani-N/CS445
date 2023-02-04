@@ -1,0 +1,22 @@
+Here the some functions we are highlighting:
+
+boolean add( elem) Adds an elem to this set. Dupes bounce off and return false 
+
+boolean addAll( set ) Adds all of the elem of some other set to this set. If all elms in other set
+		      are dupes of existing elems then nothing is added and it returns false
+
+boolean contains(Object o) T/F if the incoming elem is in the set
+
+boolean remove(Object o)  behaves just as you would expect
+
+ ** Methods inherited from super class java.util.AbstractSet ** TreeSet IS A Set
+
+boolean equals( set ) returns true if this and other set contain all same elems
+
+boolean removeAll( set ) modifies this set by removing any elems of other set from this set
+
+ ** Methods inherited from super class java.util.AbstractCollection   ** TreeSet IS A Collection
+
+boolean containsAll( set ) returns true/false does this set contain all of the elems in other set 
+
+boolean retainAll ( set ) modifies this such such that it keeps in itself only thos elems in the other set 

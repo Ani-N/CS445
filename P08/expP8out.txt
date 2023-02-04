@@ -1,0 +1,40 @@
+0: -> [6,2] -> [1,10]
+1: -> [2,31]
+2: -> [1,22]
+3: -> [5,11]
+4: -> [3,13] -> [1,56] -> [0,9]
+5: -> [6,15] -> [2,25]
+6: -> [7,22] -> [1,6]
+7: -> [5,1]  -> [0,12]
+
+maxOutDegree: 3
+minOutDegree: 1
+maxInDegree: 4
+minInDegree: 0
+maxDegree: 5
+minDegree: 2
+
+removing edge 3 -> 5
+Graph after removing edge 3 -> 5
+0: -> [6,2] -> [1,10]
+1: -> [2,31]
+2: -> [1,22]
+3: 
+4: -> [3,13] -> [1,56] -> [0,9]
+5: -> [6,15] -> [2,25]
+6: -> [7,22] -> [1,6]
+7: -> [5,1]  -> [0,12]
+
+removing edge 6 -> 1
+Graph after removing edge 6 -> 1
+0: -> [6,2] -> [1,10]
+1: -> [2,31]
+2: -> [1,22]
+3: 
+4: -> [3,13] -> [1,56] -> [0,9]
+5: -> [6,15] -> [2,25]
+6: -> [7,22] 
+7: -> [5,1]  -> [0,12]
+
+removing edge 17 -> 6
+java.lang.Exception: Non Existent Edge Exception: removeEdge(17,6)

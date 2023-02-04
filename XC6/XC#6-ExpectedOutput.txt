@@ -1,0 +1,17 @@
+$ javac -Xlint:unchecked *.java
+
+$ java TowerTester tower1.txt
+myTower loaded from tower1.txt: 10 9 8 7 6 5 4 3 2 1
+myTower after pop: 10 9 8 7 6 5 4 3 2
+myTower after pop: 10 9 8 7 6 5 4 3 
+myTower after pop: 10 9 8 7 6 5 4
+myTower after pop: 10 9 8 7 6 5
+myTower after pop: 10 9 8 7 6
+myTower after pop: 10 9 8 7 
+myTower after pop: 10 9 8 
+myTower after pop: 10 9  
+myTower after pop: 10 
+myTower after pop: EMPTY
+
+$
+
